@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'workspace' 'footer';
+  -ms-grid-rows: 80vh 20vh;
+      grid-template-rows: 80vh 20vh;
+}
+
+.container .workspace {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: workspace;
+  padding: 10%;
+  padding-top: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .footer {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+.correct {
+  background-color: #e0ffb1;
+}
+
+.wrong {
+  background-color: #febcbd;
+}
+/*# sourceMappingURL=Layout.module.css.map */

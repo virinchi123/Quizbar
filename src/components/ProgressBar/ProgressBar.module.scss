@@ -1,0 +1,15 @@
+.progressbar{
+    width:100%;
+    color: rgba(0,0,0,0);
+    display: flex;
+    justify-content: flex-start;
+    height:1.2em;
+    border: 1px solid black;
+}
+
+.filled{
+    color: rgb(52, 122, 182);
+    height: 100%;
+    width: 0;
+    border: none;
+}

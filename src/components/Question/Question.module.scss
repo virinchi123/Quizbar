@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    .options{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100%;
+        
+        .option{
+            display: flex;
+            margin: 2em 0;
+            p{
+                margin: 0;
+            }
+        }
+    }
+}
+
+/*.question{
+    h2{
+        //color: rgb(19,45,107);
+    }
+}*/

@@ -1,0 +1,20 @@
+.progressbar {
+  width: 100%;
+  color: rgba(0, 0, 0, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 1.2em;
+  border: 1px solid black;
+}
+
+.filled {
+  color: #347ab6;
+  height: 100%;
+  width: 0;
+  border: none;
+}
+/*# sourceMappingURL=ProgressBar.module.css.map */

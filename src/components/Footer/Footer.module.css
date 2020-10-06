@@ -1,0 +1,90 @@
+.container {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'left right';
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  background-color: #a4f4ff;
+}
+
+.container .leftboi {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: left;
+  padding-top: 1.8em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .leftboi .top {
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+}
+
+.container .leftboi .top h4 {
+  font-size: 1.7em;
+}
+
+.container .leftboi .bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 25%;
+}
+
+.container .leftboi .bot p {
+  margin-right: 2em;
+}
+
+.container .leftboi .bot .botter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .rightboi {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.correct {
+  background-color: #e0ffb1;
+  color: #80cd11;
+}
+
+.wrong {
+  background-color: #febcbd;
+  color: red;
+}
+
+.result {
+  padding-left: 25.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button {
+  width: 7em;
+}
+/*# sourceMappingURL=Footer.module.css.map */

@@ -1,0 +1,27 @@
+.container{
+    height:100vh;
+    display: grid;
+    grid-template-areas: 'workspace'
+                         'footer';
+    grid-template-rows: 80vh 20vh;
+
+    .workspace{
+        grid-area: workspace;
+        padding: 10%;
+        padding-top: 5%;
+        box-sizing: border-box;
+        //background-color: rgb(215,250,255);
+    }
+
+    .footer{
+        grid-area: footer;
+    }
+}
+
+.correct{
+    background-color: rgb(224,255,177);
+}
+
+.wrong{
+    background-color: rgb(254,188,189);
+}
